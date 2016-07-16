@@ -1,14 +1,13 @@
-sudo: required
+sudo: 'required'
 
 services:
-  - docker
+  - 'docker'
 
-language: ruby
-rvm:
-  - 2.1.5
+language: 'python'
+python:
+  - '2.7'
 
-install:
-  - bundle install
-script:
-  - bundle exec rake
+install: 'pip install -r requirements_dev.txt'
+
+script: 'testinfra -v'
 

@@ -1,0 +1,9 @@
+# Swap files
+*.swo
+*.swp
+
+# Python bytecode
+*.pyc
+
+# Pytest
+.cache

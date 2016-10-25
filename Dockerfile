@@ -1,4 +1,4 @@
-FROM infopen/ubuntu-xenial-ssh:0.1.0
+FROM infopen/ubuntu-xenial-ssh:develop
 MAINTAINER Alexandre Chaussier <a.chaussier@infopen.pro>
 
 # Setting for packages installation
